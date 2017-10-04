@@ -17,6 +17,8 @@ package com.test.algo;
  *     
  * Here the complexity is o(loglogn) which is less than binary search 
  * however in worst case it can take complexity of o(n)
+ * 
+ * Again this works on sorted array
  * */
 public class InterpolationSearch {
 	public static void main(String[] args) {
