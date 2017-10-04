@@ -6,6 +6,13 @@ package com.test.algo;
  * sqrt of the number of elements in the array
  * i.e. m= sqrt of n
  * Time complexity - o(sqrt(n))
+ * 
+ * It works only on sorted arrays
+ * time complexity between linear search and binary search
+ * Binary search if better than jump search, one adv of Jump search that we traverse
+ * back only once. 
+ * Consider we need to find an element which is the smallest element. In that case 
+ * if we use binary search time complexity increases else jump search is the best
  * */
 public class JumpSearch {
 	public static void main(String[] args) {
